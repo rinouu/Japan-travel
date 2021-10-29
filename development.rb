@@ -1,4 +1,3 @@
-def sum(n,x)
-	return 0 if n == 0
-  	n+sum(n-1)
+def sum(n)
+	n/2 * (1+n)
 end
